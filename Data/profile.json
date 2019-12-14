@@ -1,0 +1,50 @@
+{
+    "name": {
+        "first": "Kärt",
+        "last": "Teorein"
+    },
+    "image": {
+        "src": "https://s3.amazonaws.com/photos.geni.com/p13/1e/b2/48/4c/53444843829fe379/img_1945_large.jpg",
+        "alt": "Kärt Teorein profile picture"
+    },
+    "description": "Loremipsum&shy;dolorsitametconsect&shy;eturadipiscing elit. Duis porttitor lacus ac nisl gravida faucibus et non augue.",
+    "descContinue": "Suspendisse nec bibendum dolor. Cras quis&shy;varius diam. Fusce ut facilisis mauris. Nulla mattis sapien nec dictum fermentum. Curabitur maximus eros ut urna efficitur, vitae dictum eros dignissim. Maecenas ullamcorper dolor a maximus rutrum. Cras at ipsum ut erat mattis venenatis. Suspendisse malesuada ante eget gravida convallis. Pellentesque dolor ante, pellentesque vitae tempor non, sodales quis massa. Nunc dignissim eros sed dolor euismod laoreet.",
+    "contacts": [{
+            "name": "CV",
+            "itemprop": null,
+            "href": "#",
+            "content": "LinkedIn profile"
+        },
+        {
+            "name": "Email",
+            "itemprop": "email",
+            "href": "mailto:kartteorein(ät)gmail.com",
+            "content": "kartteorein(ät)gmail.com"
+        },
+        {
+            "name": "Phone",
+            "itemprop": "telephone",
+            "href": "tel:+37258043348",
+            "content": "+37258043348"
+        }
+    ],
+    "education": [{
+            "school": "Tallinn University of Applied Sciences",
+            "title": "Diploma of Professional Higher Education, Construction Geodesy",
+            "year": 2020
+        }
+    ],
+    "xp": [{
+            "title": "HTML",
+            "level": 0.85
+        },
+        {
+            "title": "CSS",
+            "level": 0.75
+        },
+        {
+            "title": "JS",
+            "level": 0.75
+        }
+    ]
+}

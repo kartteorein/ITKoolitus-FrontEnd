@@ -1,0 +1,36 @@
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: var(--bg-blue);
+  z-index: 100;
+}
+
+@media screen and (min-width: 576px) {
+  .main-nav {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+}
+
+.main-button {
+  background-color: var(--bg-black);
+  color: var(--text-white);
+  border-left: 4px solid var(--bg-blue);
+  height: 61px;
+  line-height: 61px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-button:visited {
+  color: var --text-white;
+}
+/*# sourceMappingURL=header.css.map */

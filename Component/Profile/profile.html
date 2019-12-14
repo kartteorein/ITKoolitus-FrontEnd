@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<title>Here is Kärt Teorein profile</title>
+
+<template id=profile>
+    <article class=i-klass itemscope itemtype=http://schema.org/ProfilePage> <header id=p2is itemprop=creator itemscope
+        itemtype=http://schema.org/Person> <!-- 6 s6na -->
+        <h1>This is <span itemprop=givenName></span> <span itemprop=familyName></span> profile</h1>
+        <img itemprop=image src=https://s3.amazonaws.com/photos.geni.com/p13/1e/b2/48/4c/53444843829fe379/img_1945_large.jpg>
+            <address>
+        <ul id=contact-list></ul>
+        <template id=contact-item>
+            <li>
+                <span></span>: <a href=#></a>
+            </li>
+        </template>
+        </address>
+        </header>
+        <section>
+            <h2>Description</h2>
+            <p class="desc">
+                <span itemprop=description></span>
+                <span class=desc-continue></span>
+            </p>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <ul id=xp-list></ul>
+            <template id=xp-item>
+                <li>
+                    <span></span>
+                    <progress></progress>
+                </li>
+            </template>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <ul id=edu-list></ul>
+            <template id=edu-item>
+                <li>
+                    <h4></h4>
+                    <p>
+                        <span></span>
+                        <br><small></small>
+                    </p>
+                </li>
+            </template>
+        </section>
+    </article>
+</template>

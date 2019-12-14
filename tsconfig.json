@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "emitBOM": false,
+        "newLine": "CRLF",
+        "pretty": true,
+        "diagnostics": true,
+        "noEmitOnError": false,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": false,
+
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "forceConsistentCasingInFileNames": true,
+
+
+        "jsx": "preserve",
+        "downlevelIteration": true,
+
+        "watch": true,
+        "target": "es6",
+        "module": "esnext",
+        "moduleResolution": "classic",
+        "sourceMap": true,
+        "lib": ["dom", "dom.iterable", "es5", "scripthost", "es6", "es2016.array.include"],
+
+        "baseUrl": "./Test/",
+        "paths": {
+            "*": ["*"]
+        },
+        "plugins": [{
+                "name": "typescript-eslint-language-service"
+            }
+        ]
+    },
+    "compileOnSave": true,
+    "include": [
+        "*.ts", "**/*.ts", "*.spec.ts", "**/*.spec.ts"
+    ],
+    "exclude": [
+        "node_modules", ".git", ".vscode", "Simple", "Test"
+    ]
+}

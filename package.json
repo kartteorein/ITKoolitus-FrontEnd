@@ -1,0 +1,37 @@
+{
+	"name": "frontend",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"jslint": "eslint . --ext .ts,.tsx",
+		"scss": "sass -watch"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {},
+	"devDependencies": {
+		"@types/jest": "^24.0.23",
+		"@typescript-eslint/eslint-plugin": "^2.10.0",
+		"@typescript-eslint/eslint-plugin-tslint": "^2.10.0",
+		"@typescript-eslint/parser": "^2.10.0",
+		"@typescript-eslint/typescript-estree": "^2.10.0",
+		"eslint": "^6.7.2",
+		"eslint-config-prettier": "^6.7.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-prefer-arrow": "^1.1.6",
+		"eslint-plugin-prettier": "^3.1.1",
+		"jest": "^24.9.0",
+		"prettier": "^1.19.1",
+		"sass": "^1.23.7",
+		"stylelint": "^12.0.0",
+		"stylelint-cli": "^1.2.0",
+		"stylelint-config-sass-guidelines": "^6.2.0",
+		"stylelint-scss": "^3.13.0",
+		"ts-jest": "^24.2.0",
+		"tsutils": "^3.17.1",
+		"typescript": "^3.7.2",
+		"typescript-eslint-language-service": "^2.0.0"
+	},
+	"description": ""
+}
